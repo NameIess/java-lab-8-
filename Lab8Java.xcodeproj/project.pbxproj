@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A9FF5721A47FB70061C752 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF5621A47FB70061C752 /* AppDelegate.m */; };
+		32A9FF5A21A47FB70061C752 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF5921A47FB70061C752 /* ViewController.m */; };
+		32A9FF5D21A47FB80061C752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A9FF5B21A47FB80061C752 /* Main.storyboard */; };
+		32A9FF6021A47FB80061C752 /* Lab8Java.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF5E21A47FB80061C752 /* Lab8Java.xcdatamodeld */; };
+		32A9FF6221A47FB80061C752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A9FF6121A47FB80061C752 /* Assets.xcassets */; };
+		32A9FF6521A47FB80061C752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A9FF6321A47FB80061C752 /* LaunchScreen.storyboard */; };
+		32A9FF6821A47FB80061C752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF6721A47FB80061C752 /* main.m */; };
+		32A9FF7221A47FB80061C752 /* Lab8JavaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF7121A47FB80061C752 /* Lab8JavaTests.m */; };
+		32A9FF7D21A47FB80061C752 /* Lab8JavaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF7C21A47FB80061C752 /* Lab8JavaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A9FF6E21A47FB80061C752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A9FF4A21A47FB70061C752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A9FF5121A47FB70061C752;
+			remoteInfo = Lab8Java;
+		};
+		32A9FF7921A47FB80061C752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A9FF4A21A47FB70061C752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A9FF5121A47FB70061C752;
+			remoteInfo = Lab8Java;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32A9FF5221A47FB70061C752 /* Lab8Java.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab8Java.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A9FF5521A47FB70061C752 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32A9FF5621A47FB70061C752 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32A9FF5821A47FB70061C752 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32A9FF5921A47FB70061C752 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32A9FF5C21A47FB80061C752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32A9FF5F21A47FB80061C752 /* Lab8Java.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab8Java.xcdatamodel; sourceTree = "<group>"; };
+		32A9FF6121A47FB80061C752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A9FF6421A47FB80061C752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32A9FF6621A47FB80061C752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A9FF6721A47FB80061C752 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A9FF6D21A47FB80061C752 /* Lab8JavaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab8JavaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A9FF7121A47FB80061C752 /* Lab8JavaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab8JavaTests.m; sourceTree = "<group>"; };
+		32A9FF7321A47FB80061C752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A9FF7821A47FB80061C752 /* Lab8JavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab8JavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A9FF7C21A47FB80061C752 /* Lab8JavaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab8JavaUITests.m; sourceTree = "<group>"; };
+		32A9FF7E21A47FB80061C752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A9FF4F21A47FB70061C752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A9FF6A21A47FB80061C752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A9FF7521A47FB80061C752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A9FF4921A47FB70061C752 = {
+			isa = PBXGroup;
+			children = (
+				32A9FF5421A47FB70061C752 /* Lab8Java */,
+				32A9FF7021A47FB80061C752 /* Lab8JavaTests */,
+				32A9FF7B21A47FB80061C752 /* Lab8JavaUITests */,
+				32A9FF5321A47FB70061C752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32A9FF5321A47FB70061C752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A9FF5221A47FB70061C752 /* Lab8Java.app */,
+				32A9FF6D21A47FB80061C752 /* Lab8JavaTests.xctest */,
+				32A9FF7821A47FB80061C752 /* Lab8JavaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A9FF5421A47FB70061C752 /* Lab8Java */ = {
+			isa = PBXGroup;
+			children = (
+				32A9FF5521A47FB70061C752 /* AppDelegate.h */,
+				32A9FF5621A47FB70061C752 /* AppDelegate.m */,
+				32A9FF5821A47FB70061C752 /* ViewController.h */,
+				32A9FF5921A47FB70061C752 /* ViewController.m */,
+				32A9FF5B21A47FB80061C752 /* Main.storyboard */,
+				32A9FF6121A47FB80061C752 /* Assets.xcassets */,
+				32A9FF6321A47FB80061C752 /* LaunchScreen.storyboard */,
+				32A9FF6621A47FB80061C752 /* Info.plist */,
+				32A9FF6721A47FB80061C752 /* main.m */,
+				32A9FF5E21A47FB80061C752 /* Lab8Java.xcdatamodeld */,
+			);
+			path = Lab8Java;
+			sourceTree = "<group>";
+		};
+		32A9FF7021A47FB80061C752 /* Lab8JavaTests */ = {
+			isa = PBXGroup;
+			children = (
+				32A9FF7121A47FB80061C752 /* Lab8JavaTests.m */,
+				32A9FF7321A47FB80061C752 /* Info.plist */,
+			);
+			path = Lab8JavaTests;
+			sourceTree = "<group>";
+		};
+		32A9FF7B21A47FB80061C752 /* Lab8JavaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32A9FF7C21A47FB80061C752 /* Lab8JavaUITests.m */,
+				32A9FF7E21A47FB80061C752 /* Info.plist */,
+			);
+			path = Lab8JavaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A9FF5121A47FB70061C752 /* Lab8Java */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A9FF8121A47FB80061C752 /* Build configuration list for PBXNativeTarget "Lab8Java" */;
+			buildPhases = (
+				32A9FF4E21A47FB70061C752 /* Sources */,
+				32A9FF4F21A47FB70061C752 /* Frameworks */,
+				32A9FF5021A47FB70061C752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab8Java;
+			productName = Lab8Java;
+			productReference = 32A9FF5221A47FB70061C752 /* Lab8Java.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32A9FF6C21A47FB80061C752 /* Lab8JavaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A9FF8421A47FB80061C752 /* Build configuration list for PBXNativeTarget "Lab8JavaTests" */;
+			buildPhases = (
+				32A9FF6921A47FB80061C752 /* Sources */,
+				32A9FF6A21A47FB80061C752 /* Frameworks */,
+				32A9FF6B21A47FB80061C752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A9FF6F21A47FB80061C752 /* PBXTargetDependency */,
+			);
+			name = Lab8JavaTests;
+			productName = Lab8JavaTests;
+			productReference = 32A9FF6D21A47FB80061C752 /* Lab8JavaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32A9FF7721A47FB80061C752 /* Lab8JavaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A9FF8721A47FB80061C752 /* Build configuration list for PBXNativeTarget "Lab8JavaUITests" */;
+			buildPhases = (
+				32A9FF7421A47FB80061C752 /* Sources */,
+				32A9FF7521A47FB80061C752 /* Frameworks */,
+				32A9FF7621A47FB80061C752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A9FF7A21A47FB80061C752 /* PBXTargetDependency */,
+			);
+			name = Lab8JavaUITests;
+			productName = Lab8JavaUITests;
+			productReference = 32A9FF7821A47FB80061C752 /* Lab8JavaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A9FF4A21A47FB70061C752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dima ";
+				TargetAttributes = {
+					32A9FF5121A47FB70061C752 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					32A9FF6C21A47FB80061C752 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32A9FF5121A47FB70061C752;
+					};
+					32A9FF7721A47FB80061C752 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32A9FF5121A47FB70061C752;
+					};
+				};
+			};
+			buildConfigurationList = 32A9FF4D21A47FB70061C752 /* Build configuration list for PBXProject "Lab8Java" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32A9FF4921A47FB70061C752;
+			productRefGroup = 32A9FF5321A47FB70061C752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A9FF5121A47FB70061C752 /* Lab8Java */,
+				32A9FF6C21A47FB80061C752 /* Lab8JavaTests */,
+				32A9FF7721A47FB80061C752 /* Lab8JavaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A9FF5021A47FB70061C752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A9FF6521A47FB80061C752 /* LaunchScreen.storyboard in Resources */,
+				32A9FF6221A47FB80061C752 /* Assets.xcassets in Resources */,
+				32A9FF5D21A47FB80061C752 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A9FF6B21A47FB80061C752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A9FF7621A47FB80061C752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A9FF4E21A47FB70061C752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A9FF6021A47FB80061C752 /* Lab8Java.xcdatamodeld in Sources */,
+				32A9FF5A21A47FB70061C752 /* ViewController.m in Sources */,
+				32A9FF6821A47FB80061C752 /* main.m in Sources */,
+				32A9FF5721A47FB70061C752 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A9FF6921A47FB80061C752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A9FF7221A47FB80061C752 /* Lab8JavaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A9FF7421A47FB80061C752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A9FF7D21A47FB80061C752 /* Lab8JavaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A9FF6F21A47FB80061C752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A9FF5121A47FB70061C752 /* Lab8Java */;
+			targetProxy = 32A9FF6E21A47FB80061C752 /* PBXContainerItemProxy */;
+		};
+		32A9FF7A21A47FB80061C752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A9FF5121A47FB70061C752 /* Lab8Java */;
+			targetProxy = 32A9FF7921A47FB80061C752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32A9FF5B21A47FB80061C752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A9FF5C21A47FB80061C752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32A9FF6321A47FB80061C752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A9FF6421A47FB80061C752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A9FF7F21A47FB80061C752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32A9FF8021A47FB80061C752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A9FF8221A47FB80061C752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lab8Java/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Lab8Java;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32A9FF8321A47FB80061C752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lab8Java/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Lab8Java;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32A9FF8521A47FB80061C752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lab8JavaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Lab8JavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab8Java.app/Lab8Java";
+			};
+			name = Debug;
+		};
+		32A9FF8621A47FB80061C752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lab8JavaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Lab8JavaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab8Java.app/Lab8Java";
+			};
+			name = Release;
+		};
+		32A9FF8821A47FB80061C752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lab8JavaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Lab8JavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab8Java;
+			};
+			name = Debug;
+		};
+		32A9FF8921A47FB80061C752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lab8JavaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Lab8JavaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab8Java;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A9FF4D21A47FB70061C752 /* Build configuration list for PBXProject "Lab8Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A9FF7F21A47FB80061C752 /* Debug */,
+				32A9FF8021A47FB80061C752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A9FF8121A47FB80061C752 /* Build configuration list for PBXNativeTarget "Lab8Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A9FF8221A47FB80061C752 /* Debug */,
+				32A9FF8321A47FB80061C752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A9FF8421A47FB80061C752 /* Build configuration list for PBXNativeTarget "Lab8JavaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A9FF8521A47FB80061C752 /* Debug */,
+				32A9FF8621A47FB80061C752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A9FF8721A47FB80061C752 /* Build configuration list for PBXNativeTarget "Lab8JavaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A9FF8821A47FB80061C752 /* Debug */,
+				32A9FF8921A47FB80061C752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32A9FF5E21A47FB80061C752 /* Lab8Java.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32A9FF5F21A47FB80061C752 /* Lab8Java.xcdatamodel */,
+			);
+			currentVersion = 32A9FF5F21A47FB80061C752 /* Lab8Java.xcdatamodel */;
+			path = Lab8Java.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32A9FF4A21A47FB70061C752 /* Project object */;
+}

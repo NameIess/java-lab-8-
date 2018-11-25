@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NSObject+NumberUtill.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NUmberUtill* number = [[NUmberUtill alloc] init];
+    
+    NSUInteger result = [number countNumber:666];
+    NSLog(@"number amount = %@", [NSNumber numberWithUnsignedInteger:result]);
+    
+    BOOL isEven = [number isEven:222];
+    NSLog(@"isEven = %@", [NSNumber numberWithBool:isEven]);
+    
+    NSUInteger naturalValue = 12233524;
+    SortDirection valueIsDesc = [number isDesc:naturalValue];
+    SortDirection valueIsAsc = [number isAsc:naturalValue];
+    
+    if (valueIsDesc == 1) {
+        NSLog(@"value %@ is Desc ", [NSNumber numberWithUnsignedInteger:valueIsDesc]);
+    } else if (valueIsAsc == 0) {
+        NSLog(@"value %@ is Asc ", [NSNumber numberWithUnsignedInteger:valueIsAsc]);
+    } else {
+        NSLog(@"value %@ is unsorted ", [NSNumber numberWithUnsignedInteger:naturalValue]);
+    }
+    
+    NSUInteger amount = [number uniqeDigitsAmount:12345123];
+    NSLog(@"digits amount = %@", [NSNumber numberWithUnsignedInteger:amount]);
+    
+    BOOL tr = [number isPowerOfTwo:1024];
+    NSLog(@"result = %@", [NSNumber numberWithBool:tr]);
     return YES;
 }
 

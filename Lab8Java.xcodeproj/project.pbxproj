@@ -16,6 +16,7 @@
 		32A9FF6821A47FB80061C752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF6721A47FB80061C752 /* main.m */; };
 		32A9FF7221A47FB80061C752 /* Lab8JavaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF7121A47FB80061C752 /* Lab8JavaTests.m */; };
 		32A9FF7D21A47FB80061C752 /* Lab8JavaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF7C21A47FB80061C752 /* Lab8JavaUITests.m */; };
+		32A9FF8C21A480A00061C752 /* NumberUtill.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A9FF8B21A480A00061C752 /* NumberUtill.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		32A9FF7821A47FB80061C752 /* Lab8JavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab8JavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A9FF7C21A47FB80061C752 /* Lab8JavaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab8JavaUITests.m; sourceTree = "<group>"; };
 		32A9FF7E21A47FB80061C752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A9FF8A21A4807A0061C752 /* NSObject+NumberUtill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+NumberUtill.h"; sourceTree = "<group>"; };
+		32A9FF8B21A480A00061C752 /* NumberUtill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberUtill.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				32A9FF6621A47FB80061C752 /* Info.plist */,
 				32A9FF6721A47FB80061C752 /* main.m */,
 				32A9FF5E21A47FB80061C752 /* Lab8Java.xcdatamodeld */,
+				32A9FF8A21A4807A0061C752 /* NSObject+NumberUtill.h */,
+				32A9FF8B21A480A00061C752 /* NumberUtill.m */,
 			);
 			path = Lab8Java;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			files = (
 				32A9FF6021A47FB80061C752 /* Lab8Java.xcdatamodeld in Sources */,
 				32A9FF5A21A47FB70061C752 /* ViewController.m in Sources */,
+				32A9FF8C21A480A00061C752 /* NumberUtill.m in Sources */,
 				32A9FF6821A47FB80061C752 /* main.m in Sources */,
 				32A9FF5721A47FB70061C752 /* AppDelegate.m in Sources */,
 			);
